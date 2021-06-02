@@ -3,25 +3,25 @@ var dataReload = document.querySelectorAll("[data-reload]");
 // language translations
 var language = {
     ba: {
-        home: "PoËetna",
+        home: "Po√®etna",
         About: "O meni",
         Skills: "Sposobnosti",
         Resume: "Biografija",
         Contact: "Kontakt",
-        AboutMe: " Ja sam Jasmin NeziriÊ, po zanimanju sam Inûenjer Informacijskih Sistema i tehnologija. Roen sam 13.11.1995. godine u Jablanici.",
-        AboutMeContinue: "Trenutno ûivim u Jablanici, gdje sam zavröio osnovno obrazovanje. Srednju graevinsku ökolu zavröavam u Mostaru, te stiËem zvanje Geodetski tehniËar. Nakon srednje ökole upisujem i zavröavam Fakultet Informacijskih tehnologija i stiËem zvanje Bachelor-Inûenjer Informacijskih sistema i tehnologija. Marljiv sam, vedar, struËan, savjesan, odgovoran i spreman za nove izazove i nova radna iskustva. Poznajem engleski jezik u govoru i pismu, i njemaËki jezik nivo A1.",
+        AboutMe: " Ja sam Jasmin Neziri√¶, po zanimanju sam In≈æenjer Informacijskih Sistema i tehnologija. Ro√∞en sam 13.11.1995. godine u Jablanici.",
+        AboutMeContinue: "Trenutno ≈æivim u Jablanici, gdje sam zavr≈°io osnovno obrazovanje. Srednju gra√∞evinsku ≈°kolu zavr≈°avam u Mostaru, te sti√®em zvanje Geodetski tehni√®ar. Nakon srednje ≈°kole upisujem i zavr≈°avam Fakultet Informacijskih tehnologija i sti√®em zvanje Bachelor-In≈æenjer Informacijskih sistema i tehnologija. Marljiv sam, vedar, stru√®an, savjesan, odgovoran i spreman za nove izazove i nova radna iskustva. Poznajem engleski jezik u govoru i pismu, i njema√®ki jezik nivo A1.",
         h2About: "O meni",
         h2Skills: "Sposobnosti",
-        SkillsAbout: "Za vrijeme studiranja imao sam se priliku upoznati sa raznim programima, programskim, opisnim i stilskim jezicima i raditi sa njima na vjeûbama i projektima koje sam izvodio na fakultetu",
+        SkillsAbout: "Za vrijeme studiranja imao sam se priliku upoznati sa raznim programima, programskim, opisnim i stilskim jezicima i raditi sa njima na vje≈æbama i projektima koje sam izvodio na fakultetu",
         h2Resume: "Biografija",
-        EducationSubtitle: "U narednoj sekciji Êu Vam ukratko opisati svoje dosadaönje obrazovanje.",
+        EducationSubtitle: "U narednoj sekciji √¶u Vam ukratko opisati svoje dosada≈°nje obrazovanje.",
         EducationTitle: "Obrazovanje",
-        h4Degree: "Inûenjer Informacijskih sistema i tehnologija",
+        h4Degree: "In≈æenjer Informacijskih sistema i tehnologija",
         Faculty: "Fakultet informacijskih tehnologija",
-        AboutFaculty: "Fakultetsko obrazovanje mi je dalo öirok spektar teoretskog znaja, ali i uvid u praktiËne aspekte, te sam imao priliku da se upoznam sa raznim vjeûbama, projektima, programima, programskim jezicima koje sam imao priliku raditi na fakultetu.",
-        HighSchoolDegree: "Geodetski tehniËar",
-        HighSchoolAbout: "Po zavröetku Srednje graevinske ökole stiËem zvanje Geodetski tehniËar",
-        HighSchool: "Srednja graevinska ökola",
+        AboutFaculty: "Fakultetsko obrazovanje mi je dalo ≈°irok spektar teoretskog znaja, ali i uvid u prakti√®ne aspekte, te sam imao priliku da se upoznam sa raznim vje≈æbama, projektima, programima, programskim jezicima koje sam imao priliku raditi na fakultetu.",
+        HighSchoolDegree: "Geodetski tehni√®ar",
+        HighSchoolAbout: "Po zavr≈°etku Srednje gra√∞evinske ≈°kole sti√®em zvanje Geodetski tehni√®ar",
+        HighSchool: "Srednja gra√∞evinska ≈°kola",
         Udemy: "Udemy - Online kurs",
         h2Contact: "Kontakt",
         LocationTitle: "Lokacija",
@@ -83,6 +83,7 @@ $(dugme).on('click', function () {
     else 
         nav.style.maxHeight = "0px";  
 })
+
 
     $.validator.addMethod(
         "regex",
