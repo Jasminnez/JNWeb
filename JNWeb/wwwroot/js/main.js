@@ -25,8 +25,7 @@ var language = {
         Udemy: "Udemy - Online kurs",
         h2Contact: "Kontakt",
         LocationTitle: "Lokacija",
-        CallTitle: "Telefon",
-
+        CallTitle: "Telefon"
     },
     eng: {
     }
@@ -84,14 +83,6 @@ $(dugme).on('click', function () {
     else 
         nav.style.maxHeight = "0px";  
 })
-//var submitButton = $("submit");
-//var succesDiv = $("sent-message");
-//var errorDiv = $("error-message");
-//$(submitButton).on('click', function () {
-//    succesDiv.style.display = "block";
-//    errorDiv.style.display = "block";
-//})
-
 
     $.validator.addMethod(
         "regex",

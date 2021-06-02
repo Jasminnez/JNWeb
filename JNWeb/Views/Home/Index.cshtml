@@ -2,37 +2,10 @@
     string SuccesMessage = (string)TempData["success_message"];
     string ErrorMessage = (string)TempData["error_message"];
 }
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <!-- Favicons -->
-    <link href="~/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="~/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="~/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="~/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="~/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="~/vendor/aos/aos.css" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="~/css/style.css" rel="stylesheet">
-
-
-</head>
 
 <body>
 
 
-    <!--<button type="button" id="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>-->
     <header id="header" class="fixed-top">
         <nav class="nav-menu" id="nav-menu">
             <ul>
@@ -52,15 +25,6 @@
             <div class="bar3"></div>
         </div>
 
-
-        <div class="container d-flex align-items-center justify-content-between">
-
-            <!--<h1 class="logo"><a href="index.html">DevFolio</a></h1>-->
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-
-        </div>
     </header><!-- End Header -->
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
@@ -76,8 +40,7 @@
             </div>
         </div>
     </section><!-- End Hero -->
-    <!--<button type="button" id="button" ><i class="icofont-navigation-menu"></i>MENU</button>-->
-    <main id="main">
+       <main id="main">
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
@@ -311,11 +274,11 @@
                                 @if (!string.IsNullOrWhiteSpace(ErrorMessage))
                                 {
 
-                                    <div class="error alert-danger">@ErrorMessage</div>
+                                <div class="error alert-danger">@ErrorMessage</div>
                                 }
                                 @if (!string.IsNullOrWhiteSpace(SuccesMessage))
                                 {
-                                    <div class="success alert-success">  @SuccesMessage </div>
+                                <div class="success alert-success">  @SuccesMessage </div>
                                 }
                             </div>
                             <div class="text-center">
@@ -349,24 +312,4 @@
     <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
     <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
-    <script src="~/vendor/jquery/jquery.min.js"></script>
-    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="~/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="~/vendor/php-email-form/validate.js"></script>
-    <script src="~/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="~/vendor/counterup/counterup.min.js"></script>
-    <script src="~/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="~/vendor/venobox/venobox.min.js"></script>
-    <script src="~/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="~/vendor/typed.js/typed.min.js"></script>
-    <script src="~/vendor/aos/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
-
-
-    <!-- Template Main JS File -->
-    <script src="~/js/main.js"></script>
-
 </body>
-
-</html>
