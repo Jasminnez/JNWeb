@@ -14,7 +14,7 @@ var language = {
         h2Skills: "Sposobnosti",
         SkillsAbout: "Za vrijeme studiranja imao sam se priliku upoznati sa raznim programima, programskim, opisnim i stilskim jezicima i raditi sa njima na vježbama i projektima koje sam izvodio na fakultetu",
         h2Resume: "Biografija",
-        EducationSubtitle: "U narednoj sekciji æu Vam ukratko opisati svoje dosadašnje obrazovanje.",
+        EducationSubtitle: "U narednoj sekciji ću Vam ukratko opisati svoje dosadašnje obrazovanje.",
         EducationTitle: "Obrazovanje",
         h4Degree: "Inženjer Informacijskih sistema i tehnologija",
         Faculty: "Fakultet informacijskih tehnologija",
@@ -25,7 +25,12 @@ var language = {
         Udemy: "Udemy - Online kurs",
         h2Contact: "Kontakt",
         LocationTitle: "Lokacija",
-        CallTitle: "Telefon"
+        CallTitle: "Telefon",
+        Birthday: "Datum rođenja",
+        Age: "Godine",
+        Degree: "Zvanje",
+        Phone: "Telefon",
+        City: "Grad"
     },
     eng: {
     }
@@ -55,6 +60,11 @@ if (window.location.hash) {
         h2Contact.textContent = language.ba.h2Contact;
         LocationTitle.textContent = language.ba.LocationTitle;
         CallTitle.textContent = language.ba.CallTitle;
+        Birthday.textContent = language.ba.Birthday;
+        Age.textContent = language.ba.Age;
+        Degree.textContent = language.ba.Degree;
+        Phone.textContent = language.ba.Phone;
+        City.textContent = language.ba.City;
     }
 }
 // define language reload onclick illiteration
