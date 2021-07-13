@@ -58,7 +58,7 @@ namespace JNWeb.Controllers
 
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
 
-                NetworkCredential networkCredential = new NetworkCredential("jasminsmtp@gmail.com", "jasko1995");//add password
+                NetworkCredential networkCredential = new NetworkCredential("jasminsmtp@gmail.com", "");//add password
                 //smtpClient.UseDefaultCredentials = false;
                 smtpClient.Credentials = networkCredential;
                 //smtpClient.Port = 587;
